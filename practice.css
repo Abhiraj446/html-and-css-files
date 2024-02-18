@@ -1,0 +1,31 @@
+.container{
+    width:800px;
+    height:200px;
+    border:2px solid red;
+    position:sticky;
+    left:100px;
+    top:100px;
+    transition: all 1s ease-in-out;
+    background-image: repeating-linear-gradient(red,yellow,green);
+}
+.container:hover{
+    transform: translate(50px, 100px);
+}
+.container h1{
+    padding: 200px;
+}
+a[target="blank"] {
+    background-color: yellow;
+}
+
+.container1{
+    width:200px;
+    height:200px;
+    display: inline-block;
+    display: block;
+    overflow: scroll;
+}
+.container1 h1{
+    display: inline-block;
+    overflow:scroll;
+}

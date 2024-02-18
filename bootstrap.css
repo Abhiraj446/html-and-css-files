@@ -1,0 +1,19 @@
+.kk{
+    background-color: aquamarine;
+    color: white;
+}
+
+.container1{
+    width:100%;
+    height:200px;
+    background-color: black;
+    color:white;
+}
+.mt-3{
+    margin-top: ($spacer* .25) ;
+}
+
+.byx{
+    opacity: 0.5;
+}
+

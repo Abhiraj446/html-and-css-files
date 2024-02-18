@@ -1,0 +1,50 @@
+/* h1{
+    color:blue;
+    display: inline;
+}
+span{
+    color:brown;
+}
+button{
+    display:block;
+} 
+
+.box{
+    width: 20%;
+    height: 200px;
+    border:2px solid red;
+    display: inline-block;
+} */
+
+nav{
+    background-color: black;
+}
+nav ul{
+    list-style-type: none;
+    padding:15px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav li a{
+    text-decoration: none;
+    color:red;
+    padding:10px;
+    font-size: 20px;
+}
+nav li a:hover{
+    background-color: red;
+    color:black;
+    border-radius: 30px;
+}
+#search{
+    float:right;   
+} 
+.search input{
+    width:70%;
+    height:20px;
+    border:none;
+    outline:none;
+    padding:5px;
+    border-radius: 15px;
+}
